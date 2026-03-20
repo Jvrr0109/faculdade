@@ -1,0 +1,26 @@
+h1 {
+    text-tranform: uppercase;
+    font-size: 30px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-align: center;
+}
+
+p::first-letter {
+    text-tranform: uppercase;
+}
+
+p:hover{
+    text-decoration: nome;
+}
+
+.primary-list {
+    list-style: nome;   /* remove a bolinha */
+    padding: 0;         /* remove espaçamento padrão */
+}
